@@ -1,12 +1,13 @@
 # Projeto-Integrador
 ## Primeira etapa do projeto
-   Componentes  grupo:
+   Colaboradores do Projeto:
    Cleber Ramalho
    Solange Minossi
    Vitor Pereira Barbosa
    Giuliano Santos
    Yuri Alves
    Edinei Abreu
+   Roquicelmo Reis
     
 ## # Assunto do projeto:  
 O tema do grupo 2: Dashboard, com informações vindas de um Banco de dados, e com mudança de estado (acima de valor x, o card fica laranja, indicando que tem algo diferente)
