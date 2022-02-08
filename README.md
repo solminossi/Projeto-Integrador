@@ -16,3 +16,4 @@ Também terá controle de visitas no site, e pesquisa dee opinião dos clientes.
 Se possivel criando promoções e enviando aos clientes
 
 Teste do colearning
+teste da sol
