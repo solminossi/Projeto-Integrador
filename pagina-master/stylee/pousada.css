@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: white;
+    display: flex;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  
+  header nav li a {
+    display: flex;
+    margin-left: 120px;
+    text-decoration: none;
+    color: rgb(138, 130, 130);
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    
+  }
+  
+  .button {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #26C6DA;
+    padding: 20px 50px;
+    margin-left: 120px;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+  }
+  
+   .logo {
+     display: flex;
+     width: 200px;
+     height: 150px;
+     justify-content: center;
+     margin-left: 400px;
+  }
+  
+  .logo img {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    padding-top: 30px;
+  }
+  
+   .container{
+    background-color: rgba(245, 245, 245, 0.616);
+    align-items: flex-start;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 150px;
+  }
+  
+  .Reservas{
+    background-image: url(../img/foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 450px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 30px;
+    
+  } 
+  
+  .Tarifas{
+    background-image: url(../img/foto2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    margin-top: 400px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+  } 
+  
+  .Clientes{
+    background-image: url(../img/foto6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+  } 
+  
+  .Relátorios{
+    background-image: url(../img/foto4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    margin-top: 400px;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+  } 
+  
+  .Painel-de-controle{
+    background-image: url(../img/foto5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    width: 450px;
+    height: 300px;
+    margin-right: 100px;
+    border-radius: 30px;
+  } 
+  
+  main a {
+    color: rgb(250, 135, 3);
+    display: flex;
+    font-size: 45px;
+    font-weight: bolder;
+    justify-content: center;
+    padding-top: 120px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #26C6DA;
+    width: 100vw;
+    height: 50vh;
+  }
+  footer #imagem img {
+    padding-left: 400px;
+    padding-top: 70px;
+    width: 250px;
+    height: 100px;
+  }
+  
+  #imagem p{
+    padding-left: 400px;
+    padding-top: 50px;
+    color: white;
+    font-size: 25px;
+    width: 250px;
+  }
+  
+  footer #links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vw;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  
+  #links h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-left: 150px;
+  }
+  
+  #links a {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 150px;
+    cursor:pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  footer #contato {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    display: flex;
+    width: 30vw;
+    display: inline-block;
+  }
+  
+  #contato a {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 150px;
+    cursor:pointer;
+    text-decoration: none;
+    padding-top: 25px;
+    display: inline-block;
+  }
+  
+  #contato img {
+    justify-content: flex-start;
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: inline-block;
+  }
+  
+  #footer {
+    background-color: #07b8cf;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #footer img {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+  }
+  
+  #footer a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+  }
