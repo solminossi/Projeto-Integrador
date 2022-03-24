@@ -1,0 +1,23 @@
+<%- include('partials/header')%>
+<body>
+<section class="formulario">  
+<form action="/users/cadastro" method="POST">
+    <h1>Usuário</h1>
+    <input type="text" name="usuario">
+    <h1>Senha</h1>
+    <input type="password" name="senha">
+    <h1>Email</h1>
+    <input type="email" name="email">
+    <h1>Telefone</h1>
+    <input type="tel" name="telefone">
+    <h1>Idade</h1>
+    <input type="number" name="idade">
+    <input type="file" name="avatar" accept=".jpg" multiple>
+    <button type="submit">Enviar </button>
+
+</form>
+</section>  
+</body>
+
+
+<%- include('partials/footer') %> 

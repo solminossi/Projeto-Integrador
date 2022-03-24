@@ -16,8 +16,10 @@ header {
   flex-flow: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  max-height: 100px;
-  background-color: rgb(88, 85, 85);
+  max-height: 100px;  
+  background-color: dodgerblue;
+  width: 100%;
+
 }
 .services{
   text-align: center;
@@ -45,6 +47,8 @@ header nav a {
   padding: 1rem;
   font-weight: bold;
 }
+
+
 #reservas {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
